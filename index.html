@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>calculator by Abrar Arronno</title>
+   <link rel="stylesheet" href="calculator.css"/>
+</head>
+<body>
+      <h1 class="ab">calculator by Abrar Arronno</h1>
+       <input type="text" class="display" placeholder="0"/>
+        
+       <div class="body">
+         <button value="7" onclick="seven()">7</button>
+         <button value="8"  onclick="eight()">8</button>
+         <button value="9"  onclick="nine()">9</button>
+         <button value="/"  onclick="de()" class="symbol">/</button><br/>
+         <button value="4" onclick="four()">4</button>
+         <button value="5"  onclick="five()">5</button>
+         <button value="6"  onclick="six()">6</button>
+         <button value="*"  onclick="into()" class="symbol">*</button><br/>
+         <button value="1"  onclick="one()">1</button>
+         <button value="2"  onclick="two()">2</button>
+         <button value="3" onclick="three()">3</button>
+         <button value="-"  onclick="min()" class="symbol">-</button><br/>
+         <button value="0"  onclick="zero()">0</button>
+         <button value="C"  onclick="c()" class="clear">C</button>
+         <button value="="  onclick="ans()" class="answer">=</button>
+         <button value="+" onclick="plus()" class="symbol">+</button><br/>
+       </div>
+
+       <script src="calculator.js"></script>
+</body>
+</html>
