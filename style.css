@@ -12,7 +12,7 @@
   background-color: gold;
   margin-top: 50px;
   font-size: 40px;
-  font-family: cursive;
+  font-family: bold;
   text-align: right;
 }
 
@@ -69,6 +69,6 @@ background-color: cornsilk;
 
 .ab{
   text-align: center;
-  font-family: cursive;
+  font-family: bold;
   margin-top: 50px;
 }
