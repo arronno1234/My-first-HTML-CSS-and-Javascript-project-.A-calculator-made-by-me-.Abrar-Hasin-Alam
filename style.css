@@ -37,6 +37,7 @@ button{
 button:hover{
 background-color: fuchsia;
 box-shadow: 1px 1px 7px black;
+opacity: 0.5;
 }
 
 
@@ -47,9 +48,6 @@ font-size: 20px;
   padding-bottom: 0;
 }
 
-button:focus{
-  opacity: 0.5;
-}
 
 .answer{
   background-color: tomato;
